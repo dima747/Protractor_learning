@@ -1,0 +1,6 @@
+{
+  "elements": {
+    "firstCard": "md-content > edetailing-card:nth-child(1) > md-card",
+    "firstCardStructure": "md-content > edetailing-card:nth-child(1) > md-card > md-card-actions > button:nth-child(2)"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "leftnav": {
+    "view": "div.left-navbar-wrapper > div > button:nth-child(1)",
+    "edit": "div.left-navbar-wrapper > div > button:nth-child(2)",
+    "structure": "div.left-navbar-wrapper > div > button:nth-child(3)",
+    "details": "div.left-navbar-wrapper > div > button:nth-child(4)",
+    "settings": "div.left-navbar-wrapper > div > button:nth-child(5)",
+    "publish": "div.left-navbar-wrapper > div > button:nth-child(6)"
+  }
+}
