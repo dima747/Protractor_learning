@@ -12,13 +12,16 @@ describe('Structure', function () {
     });
 
     describe('Waiting for loading', () => {
-        it('should load angular', function () {
-            browser.waitForAngular();
-        })
+        it('should check when new page is loaded', function () {
+            browser.getCurrentUrl();
+            browser.getTitle().then(function (title) {
+                return expect(title).toEqual('eWizard');
+            });
+        });
     });
 
     describe('go to Edit mode', () => {
-        it('should navigate us to Edit mode', () => structure.goToEditFirstSlide())
+        it('should navigate us to Edit mode', () => structure.goToEditMode())
     });
 
 });

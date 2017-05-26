@@ -4,7 +4,7 @@ exports.config = {
     framework: 'jasmine2',
     maxInstances: 1,
     allScriptsTimeout: 500000,
-    getPageTimeout: 10000,
+    getPageTimeout: 30000,
     defaultTimeoutInterval: 15000,
     seleniumAddress: 'http://localhost:4444/wd/hub',
     specs: [
