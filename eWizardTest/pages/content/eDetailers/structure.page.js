@@ -6,7 +6,12 @@ class Structure {
         this.byCss = css;
     }
 
-    goToEdit() {
+    goToEditFirstSlide(){
+        const eleFirstSlide = this.element(this.byCss(config.slides.eleFirstSlide));
+        return eleFirstSlide.click();
+    };
+
+    goToEditMode() {
         const editBtn = this.element(this.byCss(config.leftnav.edit));
         return editBtn.click();
     }
