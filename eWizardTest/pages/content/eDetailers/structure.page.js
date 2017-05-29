@@ -7,7 +7,7 @@ class Structure {
     }
 
     goToEditFirstSlide(){
-        const eleFirstSlide = this.element(this.byCss(config.slides.eleFirstSlide));
+        const eleFirstSlide = this.element(this.byCss(config.slides.firstSlide));
         return eleFirstSlide.click();
     };
 

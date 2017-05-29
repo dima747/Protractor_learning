@@ -1,3 +1,6 @@
+//webdriver-manager update
+//webdriver-manager start
+
 // conf.js
 exports.config = {
     baseUrl: 'https://release.ewizard.io',

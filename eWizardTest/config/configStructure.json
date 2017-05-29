@@ -8,6 +8,6 @@
     "publish": "div.left-navbar-wrapper > div > button:nth-child(6)"
   },
   "slides": {
-    "eleFirstSlide": ".chapters>:nth-child(1) .slide-scroller>:nth-child(1) .slide"
+    "firstSlide": ".chapters>:nth-child(1) .slide-scroller>:nth-child(1) .slide"
   }
 }
