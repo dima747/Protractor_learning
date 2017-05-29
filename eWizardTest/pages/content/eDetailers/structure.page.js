@@ -1,5 +1,5 @@
 const config = require('../../../config/configStructure.json');
-const common= require('../../common/common.js');
+const common= require('../../../common/common.js');
 
 const eleComponent = element(by.css('.components-list :nth-child(1)[ng-repeat="galleryItem in gallery.displayedList"]'));
 
