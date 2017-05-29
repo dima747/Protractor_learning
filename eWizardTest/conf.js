@@ -3,11 +3,11 @@
 
 // conf.js
 exports.config = {
-    baseUrl: 'https://release.ewizard.io',
+    baseUrl: 'https://viseven.ewizard.io',
     framework: 'jasmine2',
     maxInstances: 1,
     allScriptsTimeout: 500000,
-    getPageTimeout: 30000,
+    getPageTimeout: 15000,
     defaultTimeoutInterval: 15000,
     seleniumAddress: 'http://localhost:4444/wd/hub',
     specs: [

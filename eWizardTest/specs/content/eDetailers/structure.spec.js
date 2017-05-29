@@ -21,7 +21,13 @@ describe('Structure', function () {
     });
 
     describe('go to Edit mode', () => {
-        it('should navigate us to Edit mode', () => structure.goToEditMode())
+        it('should navigate us to Edit mode', () => structure.goToEdit())
     });
+
+    describe('wait component in sidebar', ()=>{
+        it('should wait component in sidebar', ()=>{
+            structure.waitComponentInSidebar()
+        })
+    })
 
 });
