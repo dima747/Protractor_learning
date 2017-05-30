@@ -3,7 +3,7 @@
 
 // conf.js
 exports.config = {
-    baseUrl: 'https://viseven.ewizard.io',
+    baseUrl: 'https://release.ewizard.io',
     framework: 'jasmine2',
     maxInstances: 1,
     allScriptsTimeout: 500000,

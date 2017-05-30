@@ -7,6 +7,7 @@ describe('Structure', function () {
     let structure;
 
     beforeEach(() => {
+        browser.sleep(250);
         structure = new Structure(element, by);
         browser.ignoreSynchronization = false;//wait for Angular
     });
@@ -24,10 +25,10 @@ describe('Structure', function () {
         it('should navigate us to Edit mode', () => structure.goToEditFirstSlide())
     });
 
-    describe('wait component in sidebar', ()=>{
-        it('should wait component in sidebar', ()=>{
+    describe('wait component in sidebar', () => {
+        it('should wait component in sidebar', () => {
             structure.waitComponentInSidebar()
         })
-    })
+    });
 
 });

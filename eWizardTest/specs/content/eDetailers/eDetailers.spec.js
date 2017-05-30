@@ -7,6 +7,7 @@ describe('eDetailers', function () {
     let eDetailers;
 
     beforeEach(() => {
+        browser.sleep(250);
         eDetailers = new EDetailers(element, by);
         browser.ignoreSynchronization = false;//wait for Angular
     });

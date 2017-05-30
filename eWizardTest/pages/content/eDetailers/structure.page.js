@@ -1,7 +1,9 @@
 const config = require('../../../config/configStructure.json');
-const common= require('../../../common/common.js');
+const common = require('../../../common/common.js');
 
-const eleComponent = element(by.css('.components-list :nth-child(1)[ng-repeat="galleryItem in gallery.displayedList"]'));
+//const eleComponent = element(by.css('.components-list :nth-child(1)[ng-repeat="galleryItem in gallery.displayedList"]'));
+const eleComponent = element(by.css('div.components-list.scroll-container.material-scroll > component-gallery-item:nth-child(1)'));
+
 
 class Structure {
     constructor(element, {css}) {
@@ -11,7 +13,7 @@ class Structure {
 
     goToEditFirstSlide(){
         const eleFirstSlide = this.element(this.byCss(config.slides.firstSlide));
-        return eleFirstSlide.click();
+        return browser.actions().doubleClick(eleFirstSlide).perform();
     }
 
     goToView() {
@@ -32,7 +34,7 @@ class Structure {
     }
 
     waitComponentInSidebar(){
-        return common.waitForElement(eleComponent)
+        return common.waitForElement(eleComponent);
     };
 
 }
