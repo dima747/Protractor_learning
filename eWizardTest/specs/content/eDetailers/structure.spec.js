@@ -25,10 +25,4 @@ describe('Structure', function () {
         it('should navigate us to Edit mode', () => structure.goToEditFirstSlide())
     });
 
-    describe('wait component in sidebar', () => {
-        it('should wait component in sidebar', () => {
-            structure.waitComponentInSidebar()
-        })
-    });
-
 });

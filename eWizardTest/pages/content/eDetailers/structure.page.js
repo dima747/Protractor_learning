@@ -1,9 +1,4 @@
 const config = require('../../../config/configStructure.json');
-const common = require('../../../common/common.js');
-
-//const eleComponent = element(by.css('.components-list :nth-child(1)[ng-repeat="galleryItem in gallery.displayedList"]'));
-const eleComponent = element(by.css('div.components-list.scroll-container.material-scroll > component-gallery-item:nth-child(1)'));
-
 
 class Structure {
     constructor(element, {css}) {
@@ -32,10 +27,6 @@ class Structure {
         const editBtn = this.element(this.byCss(config.leftnav.publish));
         return editBtn.click();
     }
-
-    waitComponentInSidebar(){
-        return common.waitForElement(eleComponent);
-    };
 
 }
 

@@ -13,6 +13,7 @@ exports.config = {
     specs: [
         './specs/login/*',
         './specs/content/eDetailers/eDetailers.spec.js',
-        './specs/content/eDetailers/structure.spec.js'
+        './specs/content/eDetailers/structure.spec.js',
+        './specs/content/eDetailers/presentation/add_components.spec.js'
     ]
-}
+};

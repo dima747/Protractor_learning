@@ -1,0 +1,24 @@
+{
+  "components_gallery":"div.components-list.scroll-container.material-scroll > component-gallery-item:nth-child(1)",
+  "components": {
+    "button": "div.gallery-components > div.components-list.scroll-container.material-scroll > component-gallery-item:nth-child(1)",
+    "card": "div.gallery-components > div.components-list.scroll-container.material-scroll > component-gallery-item:nth-child(2)",
+    "carousel":"",
+    "chart":"",
+    "checkboxes":"",
+    "container":"",
+    "coverflow":"",
+    "extended_card":"",
+    "flip":"",
+    "image":"",
+    "input":"",
+    "popup":"",
+    "radio_buttons":"",
+    "slider":"",
+    "tab_group":"",
+    "table":"",
+    "text":"",
+    "textarea":"",
+    "video":""
+  }
+}
