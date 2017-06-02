@@ -38,10 +38,6 @@
     "ewizard",
     "test"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dima747/Protractor_learning.git"
-  },
   "author": "d.kovtun",
   "license": "ISC"
 }
