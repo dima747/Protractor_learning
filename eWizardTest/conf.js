@@ -2,10 +2,11 @@
  //Start webdriver
  webdriver-manager update
  webdriver-manager start
- */
+ //Для установки всех зависимостей из package.json
+ npm install
+*/
 
 // Html Screenshot Reporter
-//https://www.npmjs.com/package/protractor-jasmine2-screenshot-reporternpm install jasmine-spec-reporter --save-dev
 const HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
 var reporter = new HtmlScreenshotReporter({
     dest: 'report/screenshots',
@@ -13,11 +14,9 @@ var reporter = new HtmlScreenshotReporter({
 });
 
 //Spec Reporter
-//https://www.npmjs.com/package/jasmine-spec-reporter
-const SpecReporter = require('jasmine-spec-reporter').SpecReporter;
+const SpecReporter = require('jasmine-spec-reporter');
 
 //Jasmine Reporters
-//https://github.com/larrymyers/jasmine-reporters
 const jasmineReporters = require('jasmine-reporters');
 
 // conf.js
